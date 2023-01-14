@@ -1,0 +1,19 @@
+.estiloCarro img {
+    width: 35px;
+    height: 35px;
+}
+
+.estiloCarro img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    filter: drop-shadow(5px 5px 10px #444);
+}
+
+.ContadorBotonCarro{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    border-color: transparent;
+    pointer-events: none;
+}

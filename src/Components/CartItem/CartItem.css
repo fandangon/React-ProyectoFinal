@@ -1,0 +1,43 @@
+.ContenedorCart{
+    border-style: solid;
+    border-color: lightblue;
+    margin-top: 20px;
+    background-color:#CFEFED;
+    max-width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+}
+.ImagenCart img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+.NombreCart{
+    margin-top: 10px;
+}
+.CantidadCart{
+    margin-top: 10px;
+}
+.PrecioCartUnit{
+    margin-top: 10px;
+}
+.PrecioCartTotal{
+    margin-top: 10px;
+}
+
+.RemoveItemCart img{
+    width: 25px;
+    margin-top: 20px;
+    
+    
+}
+.RemoveItemCart button{
+    border-style: none;
+    margin-bottom: 15px;
+    background-color: transparent;
+    
+}
+
+
+

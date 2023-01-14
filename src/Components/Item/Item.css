@@ -1,0 +1,63 @@
+    .contenedor {
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1% 1% 1% 1%;
+    }
+    
+    .contenedor div {
+        background-color:#CFEFED;
+    }
+    
+    .card {
+        margin-top: 3rem;
+        margin-top: 2%;
+        border-color: lightblue;
+        width: 300px;
+        height: 500px;
+    }
+    
+    .imagenProducto {
+        margin-top: 7%;
+        width: 50%;
+        margin-left: 15%;
+    }
+    
+    .precioProducto {
+        color: red;
+        font-weight: bold;
+        text-align: left;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    
+    .nombreProducto {
+        color: gray;
+        text-align: center;
+        margin-top: 1%;
+        font-size: 18px;
+    }
+    
+    .tituloProducto {
+        margin-top: 7%;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .detallesProducto {
+        margin-top: 7%;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .detallesProducto :link {
+        text-decoration: none;
+        background-color: lightskyblue;
+    }
+    
+    .detallesProducto :hover {
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }

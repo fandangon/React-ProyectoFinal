@@ -1,0 +1,30 @@
+    .estilo_barra {
+        background-color: #CFEFED;
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .estilo_barra a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .estilo_barra li {
+        list-style-type: none;
+    }
+    
+    .estilo_barra a:hover {
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+    .logo{
+       
+       width: 100px;
+       text-align: left;  
+    }

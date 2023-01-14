@@ -1,0 +1,88 @@
+ .contenedorItem {
+     background-color: #CFEFED;
+     width: 80%;
+     height: 80%;
+     text-align: center;
+     margin-left: 10%;
+     margin-top: 6%;
+     margin-bottom: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .imagenItem img {
+     margin-top: 3%;
+     height: 300px;
+     width: 300px;
+     align-items: center;
+     margin-left: 20%;
+ }
+
+ .imgMuestra1 img {
+     height: 60%;
+     width: 60%;
+      margin-bottom: 20%;
+     margin-top: 20%;
+     margin-left: 40%; 
+     padding-bottom: 1px;
+     border-color: grey;
+     border-width: 2px;
+     border-style: solid;
+ }
+
+ .imgMuestra_noselect {
+     filter: grayscale(100%);
+ }
+
+ .imgMuestra1 img:hover {
+     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+     transform: scale(1.1);
+     transition: all 0.5s;
+ }
+ 
+ .precioItem {
+     color: red;
+     font-weight: bold;
+     text-align: left;
+     text-align: center;
+     margin-top: 16%;
+     font-size: 40px;
+ }
+ 
+ .tituloItem {
+     margin-right: 5%;
+     font-size: 40px;
+ }
+ 
+ .nombreItem {
+     font-size: 20px;
+ }
+ 
+ .descripcionItem {
+     margin-top: 3%;
+ }
+ 
+ .datosItem {
+     margin-right: 5%;
+ }
+ 
+ .descripcionItem {
+     margin-left: 20%;
+ }
+ 
+ .botonCarro {
+     border-style: solid;
+     
+     font-size: 15px;
+ }
+ 
+ .botonCarro :link {
+     text-decoration: none;
+    
+ }
+ .botonCarro {
+    margin-top: 5%;
+    background-color: lightseagreen;
+    border-color: lightblue;
+}

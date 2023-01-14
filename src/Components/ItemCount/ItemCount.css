@@ -1,0 +1,17 @@
+.restar,
+.sumar {
+    border-style: none;
+    background-color: transparent;
+}
+
+.input {
+    size: 2%;
+    text-align: center;
+    pointer-events: none;
+}
+
+.botonCarrito {
+    margin-top: 5%;
+    background-color: lightseagreen;
+    border-color: lightblue;
+}

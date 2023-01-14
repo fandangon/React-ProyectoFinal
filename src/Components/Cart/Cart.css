@@ -1,0 +1,51 @@
+.TotalCompra{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.TituloCarrito{
+    margin-top: 50px;
+    color:gray;
+}
+
+.CarroVacio{
+    color: red;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.FotoCarroVacio{
+ 
+   width: 30%;
+   margin-right: 5%;
+}
+
+.botonCarroVacio :link{
+    text-decoration: none;
+    background-color: #CFEFED;
+}
+
+.botonCarroVacio{
+    margin-top: 10px;  
+    font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedorVaciarCart{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.VaciarCart button{
+    margin-left: 10px;
+    background-color:lightseagreen;
+    border-color: lightblue;
+   
+}
+
+.VaciarCart :link{
+  text-decoration: none;
+  color: black;
+}
