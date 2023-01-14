@@ -16,7 +16,7 @@ function NavBar() {
                             <NavLink to={'/categoria/Cuidado'} className="nav-link" aria-current="page">Cuidado Personal</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to={'/categoria/Suplementos'} className="nav-link">Suplementos y Nutrición</NavLink>
+                            <NavLink to={'/categoria/Suplementos'} className="nav-link">Suplementos y Nutricion</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to={'/categoria/Bebe'} className="nav-link">Bebe y Maternidad</NavLink>
